@@ -1,6 +1,6 @@
 import { useEffect } from "react";
 import "./App.css";
-import Navbar from "./components/navbar/navbar";
+import Navbar from "./components/navbar/Navbar";
 
 import Mainroutes from "./routes/Mainroutes";
 import { asyncCurrentUser } from "./store/action/UserAction";
