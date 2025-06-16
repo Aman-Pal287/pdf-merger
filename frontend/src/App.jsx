@@ -3,8 +3,9 @@ import "./App.css";
 import Navbar from "./components/navbar/Navbar";
 
 import Mainroutes from "./routes/Mainroutes";
-import { asyncCurrentUser } from "./store/action/UserAction";
+
 import { useDispatch } from "react-redux";
+import { asyncCurrentUser } from "./store/action/UserAction";
 
 function App() {
   const dispatch = useDispatch();
