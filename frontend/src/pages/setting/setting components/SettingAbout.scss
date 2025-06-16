@@ -1,0 +1,32 @@
+.setting-main-left-part2-outlet-about-main {
+    padding: 0 0 50px 0;
+  width: 100%;
+  .setting-main-left-part2-outlet-about-contact {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    h1 {
+      font-size: 20px;
+      font-weight: 700;
+      opacity: 0.95;
+      margin-top: 20px;
+    }
+    p {
+      opacity: 0.7;
+    }
+  }
+  .setting-main-left-part2-outlet-about-basicInformation {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    h1 {
+      font-size: 20px;
+      font-weight: 700;
+      opacity: 0.95;
+      margin-top: 20px;
+    }
+    p {
+      opacity: 0.7;
+    }
+  }
+}
