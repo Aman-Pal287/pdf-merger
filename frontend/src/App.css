@@ -51,8 +51,14 @@
   text-align: center;
   cursor: pointer;
   margin-bottom: 20px;
+  margin-top: 40px;
   background-color: var(--dropzone-bg);
   transition: border-color 0.3s, background-color 0.3s;
+  width: 100%;
+  min-height: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .dropzone:hover {
@@ -188,4 +194,19 @@
   border-radius: 20px;
   cursor: pointer;
   z-index: 100;
+}
+
+@media (min-width: 720px) {
+  .dropzone {
+    border: 2px dashed var(--border-color);
+    border-radius: 5px;
+    padding: 20px;
+    text-align: center;
+    cursor: pointer;
+    margin-bottom: 20px;
+    margin-top: 40px;
+    background-color: var(--dropzone-bg);
+    transition: border-color 0.3s, background-color 0.3s;
+    width: 50%;
+  }
 }

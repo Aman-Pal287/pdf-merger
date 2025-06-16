@@ -60,7 +60,7 @@ const PdfMerger = () => {
   };
 
   return (
-    <div className="pdf-merger">
+    <div className="pdf-merger flex flex-col items-center">
       <h2>PDF Merger and Arranger</h2>
       
       <PdfUploader onFilesAdded={handleFilesAdded} />
